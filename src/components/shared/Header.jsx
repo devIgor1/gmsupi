@@ -47,14 +47,14 @@ const Header = () => {
                   </MenubarItem>
                   <MenubarSeparator />
                   <MenubarItem className="flex-center gap-3">
-                    <a href="/aulasaovivo">Aulas ao Vivo</a>
+                    <a href="/aulas-ao-vivo">Aulas ao Vivo</a>
                     <span>
                       <RiLiveFill />
                     </span>
                   </MenubarItem>
                   <MenubarSeparator />
                   <MenubarItem className="flex-center gap-3">
-                    <a href="/cursosmensais">Cursos Mensais</a>
+                    <a href="/cursos-mensais">Cursos Mensais</a>
                     <span>
                       <IoBookSharp />
                     </span>
