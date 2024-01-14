@@ -12,6 +12,9 @@ export default function CursosMensais() {
           <MobileNav />
         </div>
       </nav>
+      <main className="min-h-screen w-full bg-gradient-to-b from-orange-100 to-orange-200">
+        <h1>Hello Main</h1>
+      </main>
     </>
   )
 }

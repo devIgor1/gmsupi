@@ -3,7 +3,7 @@ import MobileNav from "@/components/shared/MobileNav"
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen bg-[#EED6B5]">
+    <main className="w-full min-h-screen bg-gradient-to-b from-orange-100 to-orange-200">
       <div className="hidden md:block">
         <Header />
       </div>
