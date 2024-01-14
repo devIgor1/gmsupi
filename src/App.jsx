@@ -1,17 +1,31 @@
-import Header from "./components/shared/Header"
-import MobileNav from "./components/shared/MobileNav"
+import { createBrowserRouter } from "react-router-dom"
+import Home from "./pages/home"
+import MetodoSupi from "./pages/metodosupi"
+import MetodoJulia from "./pages/metodojulia"
+import AulasAoVivo from "./pages/aulasaovivo"
+import CursosMensais from "./pages/cursosmensais"
 
-function App() {
-  return (
-    <main className="w-full min-h-screen bg-[#EED6B5]">
-      <div className="hidden md:block">
-        <Header />
-      </div>
-      <div className="block md:hidden">
-        <MobileNav />
-      </div>
-    </main>
-  )
-}
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/metodosupi",
+    element: <MetodoSupi />,
+  },
+  {
+    path: "/metodojulia",
+    element: <MetodoJulia />,
+  },
+  {
+    path: "/aulas-ao-vivo",
+    element: <AulasAoVivo />,
+  },
+  {
+    path: "/cursos-mensais",
+    element: <CursosMensais />,
+  },
+])
 
-export default App
+export { router }
