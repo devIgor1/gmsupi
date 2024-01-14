@@ -73,6 +73,7 @@ module.exports = {
       },
       fontFamily: {
         lora: "Lora, serif;",
+        nunito: "Nunito, sans-serif;",
       },
     },
   },
