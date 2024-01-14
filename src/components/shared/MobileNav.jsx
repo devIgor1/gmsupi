@@ -12,6 +12,7 @@ import queen from "../../assets/images/queen.svg"
 
 import { HiMenu } from "react-icons/hi"
 import NavItems from "./NavItems"
+import Logo from "./Logo"
 
 const MobileNav = () => {
   return (
@@ -27,7 +28,7 @@ const MobileNav = () => {
             <HiMenu size={30} />
           </SheetTrigger>
           <SheetContent>
-            <div className="bg-[#EED6B5] h-screen p-6">
+            <div className="bg-[#EED6B5] h-screen p-6 pt-16">
               <div>
                 <NavItems />
               </div>
