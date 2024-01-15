@@ -74,6 +74,7 @@ module.exports = {
       fontFamily: {
         lora: "Lora, serif;",
         nunito: "Nunito, sans-serif;",
+        poppins: "Poppins, sans-serif",
       },
     },
   },
