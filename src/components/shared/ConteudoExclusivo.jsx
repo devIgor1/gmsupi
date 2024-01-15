@@ -2,7 +2,7 @@ import { FaSignature } from "react-icons/fa"
 import { Separator } from "../ui/separator"
 import Button from "./Button"
 
-const AssinaturaAnual = () => {
+const ConteudoExclusivo = () => {
   return (
     <section className="w-full flex-col md:flex-row md:flex-center md:flex-around">
       <div className="flex-1 p-5 flex-center flex-col">
@@ -85,4 +85,4 @@ const AssinaturaAnual = () => {
   )
 }
 
-export default AssinaturaAnual
+export default ConteudoExclusivo
