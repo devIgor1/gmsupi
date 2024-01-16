@@ -4,6 +4,11 @@ import { IoMdStar } from "react-icons/io"
 import { IoLogoWhatsapp } from "react-icons/io5"
 import { Separator } from "../ui/separator"
 import { LuPlus } from "react-icons/lu"
+import Button from "./Button"
+import { AiFillGift } from "react-icons/ai"
+import { FaCoins } from "react-icons/fa"
+import { LiaLaptopSolid } from "react-icons/lia"
+import { BsGraphUpArrow } from "react-icons/bs"
 
 const Vantagens = () => {
   return (
@@ -11,7 +16,7 @@ const Vantagens = () => {
       <div className="flex-center flex-col">
         <div className="flex-center">
           <IoMdStar size={50} />
-          <h1 className="text-center text-5xl text-shadow font-lora underline">
+          <h1 className="text-center text-5xl text-shadow font-lora underline text-black">
             CONTEÚDOS EXCLUSIVOS
           </h1>
           <IoMdStar size={50} />
@@ -35,7 +40,7 @@ const Vantagens = () => {
           </span>
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10 max-w-[1350px]">
-          <div className="flex-center flex-col rounded-lg p-5 border-2 border-black shadow-2xl shadow-black bg-gradient-to-t from-orange-500 to-orange-200">
+          <div className="flex-center flex-col rounded-lg p-5 border-2 border-black shadow-2xl shadow-black bg-gradient-to-b from-amber-900 to-neutral-900">
             <img
               src="/src/assets/images/metodosupi.jpg"
               alt="metodosupi.jpg"
@@ -57,7 +62,7 @@ const Vantagens = () => {
               SAIBA MAIS
             </a>
           </div>
-          <div className="flex-center flex-col rounded-lg p-5 border-2 border-black shadow-2xl shadow-black bg-gradient-to-t from-orange-500 to-orange-200">
+          <div className="flex-center flex-col rounded-lg p-5 border-2 border-black shadow-2xl shadow-black bg-gradient-to-b from-amber-900 to-neutral-900">
             <img
               src="/src/assets/images/metodojulia.jpg"
               alt="metodosupi.jpg"
@@ -91,7 +96,7 @@ const Vantagens = () => {
           </span>
           <div>
             <div className="flex-center flex-col gap-5">
-              <h1 className="text-center text-3xl md:text-5xl text-shadow font-lora">
+              <h1 className="text-center text-3xl md:text-5xl text-shadow font-lora text-black  ">
                 AULAS COM NOSSA EQUIPE DE PROFESSORES <br />
               </h1>
               <span className=" text-green-500 text-center text-5xl text-shadow font-lora bg-white p-2 rounded-lg">
@@ -198,14 +203,14 @@ const Vantagens = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-10 min-h-screen ">
+            <div className="mt-10 min-h-screen">
               <div className="flex-center my-10">
                 <LuPlus size={70} />
               </div>
-              <div className="flex-center flex-col bg-gradient-to-b from-slate-100 to-gray-300 w-[400px] md:w-[500px] mx-auto rounded-lg shadow-lg shadow-black p-10 gap-10">
+              <div className="flex-1 flex-center flex-col bg-gradient-to-b from-slate-100 to-gray-300 w-[400px] md:w-[500px] mx-auto rounded-lg shadow-lg shadow-black p-10 gap-10">
                 <div className="flex-center flex-col gap-5">
-                  <div className="flex-center gap-5">
-                    <h1 className="font-poppins text-xl font-bold text-center">
+                  <div className="flex-center gap-5 bg-black text-white p-2">
+                    <h1 className="font-poppins text-xl font-bold text-center text-green-500">
                       ACOMPANHAMENTO EXCLUSIVO EM NOSSO GRUPO DO WHATSAPP
                     </h1>
                     <span className="text-green-500">
@@ -213,10 +218,21 @@ const Vantagens = () => {
                     </span>
                   </div>
                   <Separator className="bg-black" />
+                  <div className="flex-center flex-col gap-5 w-full">
+                    <div className="flex-center gap-5 bg-black text-white p-2 w-full">
+                      <h1 className="font-poppins text-xl font-bold text-center text-red-500">
+                        AUMENTE SEU RATING
+                      </h1>
+                      <span className="text-red-500">
+                        <BsGraphUpArrow size={50} />
+                      </span>
+                    </div>
+                    <Separator className="bg-black" />
+                  </div>
                 </div>
                 <div className=" flex-center flex-col gap-5">
-                  <div className="flex-center gap-5">
-                    <h1 className="font-poppins text-xl font-bold text-center">
+                  <div className="flex-center gap-5 bg-black text-white p-2 w-full">
+                    <h1 className="font-poppins text-xl font-bold text-center text-orange-500">
                       CURSOS NOVOS TODOS OS MESES
                     </h1>
                     <span className="text-orange-500">
@@ -226,15 +242,63 @@ const Vantagens = () => {
                   <Separator className="bg-black" />
                 </div>
                 <div className="flex-center flex-col gap-5">
-                  <div className="flex-center gap-5">
-                    <h1 className="font-poppins text-xl font-bold text-center">
+                  <div className="flex-center gap-5 bg-black text-white p-2 w-full">
+                    <h1 className="font-poppins text-xl font-bold text-center text-blue-500">
                       PROVAS MENSAIS PARA TODOS OS NÍVEIS
                     </h1>
-                    <span className="text-red-500">
+                    <span className="text-blue-500">
                       <GiNotebook size={50} />
                     </span>
                   </div>
                   <Separator className="bg-black" />
+                </div>
+                <div className="flex-center flex-col gap-5 w-full">
+                  <div className="flex-center gap-5 bg-black text-white p-2 w-full">
+                    <h1 className="font-poppins text-xl font-bold text-center text-yellow-300">
+                      PAGAMENTO SEGURO
+                    </h1>
+                    <span className="text-yellow-300">
+                      <FaCoins size={50} />
+                    </span>
+                  </div>
+                  <Separator className="bg-black" />
+                </div>
+                <div className="flex-center flex-col gap-5 w-full">
+                  <div className="flex-center gap-5 bg-black text-white p-2 w-full">
+                    <h1 className="font-poppins text-xl font-bold text-center">
+                      TESTE GRÁTIS POR 7 DIAS
+                    </h1>
+                    <span className="text-white">
+                      <LiaLaptopSolid size={50} />
+                    </span>
+                  </div>
+                  <Separator className="bg-black" />
+                </div>
+              </div>
+              <div className="flex-center my-10">
+                <LuPlus size={70} />
+              </div>
+              <div className="mt-10">
+                <div className="bg-black p-2 max-w-3xl mx-auto shadow-md shadow-black border-2 border-black rounded-sm font-poppins">
+                  <div className="text-yellow-300 flex-center gap-5">
+                    <h1 className="text-6xl">BÔNUS</h1>
+                    <span>
+                      <AiFillGift size={50} />
+                    </span>
+                  </div>
+                  <Separator className="bg-white" />
+                  <div className="text-center">
+                    <p className="font-poppins text-2xl text-white mt-2 text-center">
+                      Além de todos os cursos e aulas ao vivo, os assinantes
+                      terão
+                    </p>
+                    <span className="ml-1 text-green-500 text-2xl font-poppins">
+                      acesso a novos cursos todo o mês sem custo adicional!
+                    </span>
+                  </div>
+                  <div className="flex-center mt-5">
+                    <Button />
+                  </div>
                 </div>
               </div>
             </div>
