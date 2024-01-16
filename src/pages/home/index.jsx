@@ -4,6 +4,7 @@ import MobileNav from "@/components/shared/MobileNav"
 import Banner from "@/components/shared/Banner"
 import AssinaturaAnual from "@/components/shared/AssinaturaAnual"
 import Vantagens from "@/components/shared/Vantagens"
+import Depoimentos from "@/components/shared/Depoimentos"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Banner />
         <AssinaturaAnual />
         <Vantagens />
+        <Depoimentos />
       </main>
     </>
   )
