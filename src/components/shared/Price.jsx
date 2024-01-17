@@ -70,7 +70,7 @@ const Price = () => {
             ou 12x de <span className="text-green-500">R$ 49,60*</span>
           </p>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 flex-center">
           <Button />
         </div>
       </div>
