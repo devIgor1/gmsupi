@@ -14,13 +14,10 @@ const Vantagens = () => {
   return (
     <section className="min-h-screen w-full mt-20">
       <div className="flex-center flex-col">
-        <div className="flex-center">
-          <IoMdStar size={50} />
-          <h1 className="text-center text-5xl font-lora underline text-black">
-            CONTEÚDOS EXCLUSIVOS
-          </h1>
-          <IoMdStar size={50} />
-        </div>
+        <IoMdStar size={50} />
+        <h1 className="text-center text-5xl font-lora underline text-black">
+          CONTEÚDOS EXCLUSIVOS
+        </h1>
         <p className="max-w-4xl text-lg text-center font-poppins mt-5 bg-white/60 p-3 rounded-lg shadow-md shadow-black ">
           OS ASSINANTES TERÃO ACESSO A{" "}
           <span className="text-orange-500 bg-zinc-950/90  rounded-md">
@@ -207,7 +204,7 @@ const Vantagens = () => {
               <div className="flex-center my-10">
                 <LuPlus size={70} />
               </div>
-              <div className="flex-1 flex-center flex-col bg-gradient-to-b from-slate-100 to-gray-300 w-[400px] md:w-[500px] mx-auto rounded-lg shadow-lg shadow-black p-10 gap-10">
+              <div className="flex-1 flex-center flex-col bg-gradient-to-b from-slate-100 to-gray-300 w-[350px] md:w-[500px] mx-auto rounded-lg shadow-lg shadow-black p-10 gap-10">
                 <div className="flex-center flex-col gap-5">
                   <div className="flex-center gap-5 bg-black text-white p-2">
                     <h1 className="font-poppins text-xl font-bold text-center text-green-500">
@@ -279,16 +276,16 @@ const Vantagens = () => {
                 <LuPlus size={70} />
               </div>
               <div className="mt-10">
-                <div className="bg-black p-2 max-w-3xl mx-auto shadow-md shadow-black border-2 border-black rounded-sm font-poppins">
+                <div className="bg-black p-2 w-[350px] md:w-full mx-auto shadow-md shadow-black border-2 border-black rounded-sm font-poppins">
                   <div className="text-yellow-300 flex-center gap-5">
-                    <h1 className="text-6xl">BÔNUS</h1>
+                    <h1 className="text-4xl">BÔNUS</h1>
                     <span>
-                      <AiFillGift size={50} />
+                      <AiFillGift size={40} />
                     </span>
                   </div>
                   <Separator className="bg-white" />
                   <div className="text-center">
-                    <p className="font-poppins text-2xl text-white mt-2 text-center">
+                    <p className="font-poppins text-xl text-white mt-2 text-center">
                       Além de todos os cursos e aulas ao vivo, os assinantes
                       terão
                     </p>
