@@ -7,7 +7,7 @@ const AssinaturaAnual = () => {
     <section className="w-full flex-col md:flex-row md:flex-center md:flex-around">
       <div className="flex-1 p-5 flex-center flex-col">
         <div className="flex-center flex-col">
-          <h1 className="text-center text-5xl font-lora text-shadow">
+          <h1 className="text-center text-5xl font-lora underline">
             ASSINATURA ANUAL
           </h1>
           <span>

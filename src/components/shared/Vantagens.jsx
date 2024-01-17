@@ -16,7 +16,7 @@ const Vantagens = () => {
       <div className="flex-center flex-col">
         <div className="flex-center">
           <IoMdStar size={50} />
-          <h1 className="text-center text-5xl text-shadow font-lora underline text-black">
+          <h1 className="text-center text-5xl font-lora underline text-black">
             CONTEÚDOS EXCLUSIVOS
           </h1>
           <IoMdStar size={50} />
@@ -96,7 +96,7 @@ const Vantagens = () => {
           </span>
           <div>
             <div className="flex-center flex-col gap-5">
-              <h1 className="text-center text-3xl md:text-5xl text-shadow font-lora text-black  ">
+              <h1 className="text-center text-3xl md:text-5xl font-lora text-black underline">
                 AULAS COM NOSSA EQUIPE DE PROFESSORES <br />
               </h1>
               <span className=" text-green-500 text-center text-5xl text-shadow font-lora bg-white p-2 rounded-lg">
