@@ -6,6 +6,7 @@ import AssinaturaAnual from "@/components/shared/AssinaturaAnual"
 import Vantagens from "@/components/shared/Vantagens"
 import Depoimentos from "@/components/shared/Depoimentos"
 import Price from "@/components/shared/Price"
+import Perguntas from "@/components/shared/Perguntas"
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Vantagens />
         <Depoimentos />
         <Price />
+        <Perguntas />
       </main>
     </>
   )
