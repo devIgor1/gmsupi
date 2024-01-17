@@ -5,7 +5,6 @@ const Price = () => {
   return (
     <section className="wrapper flex-center flex-col items-center gap-24 md:gap-40 md:flex-row mt-10 p-5 border-t-2 border-black">
       <div className="flex-center flex-col">
-        <Button />
         <div className="mt-10 font-poppins bg-white p-5 rounded-lg shadow-md shadow-black mb-5">
           <div className="flex-center gap-3 mb-5">
             <span className="bg-black rounded-full">
@@ -70,6 +69,9 @@ const Price = () => {
           <p className="text-xl text-center bg-black text-white mt-5 rounded-lg">
             ou 12x de <span className="text-green-500">R$ 49,60*</span>
           </p>
+        </div>
+        <div className="mt-5">
+          <Button />
         </div>
       </div>
     </section>
