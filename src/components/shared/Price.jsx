@@ -3,7 +3,7 @@ import { GiCheckMark } from "react-icons/gi"
 
 const Price = () => {
   return (
-    <section className="wrapper flex-center flex-col items-center gap-24 md:gap-40 md:flex-row mt-10 p-5 border-t-2 border-black">
+    <section className="wrapper flex-center flex-col items-center gap-12 md:gap-40 md:flex-row mt-10 p-5 border-t-2 border-black">
       <div className="flex-center flex-col">
         <div className="mt-10 font-poppins bg-white p-5 rounded-lg shadow-md shadow-black mb-5">
           <div className="flex-center gap-3 mb-5">
