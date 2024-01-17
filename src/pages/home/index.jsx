@@ -5,6 +5,7 @@ import Banner from "@/components/shared/Banner"
 import AssinaturaAnual from "@/components/shared/AssinaturaAnual"
 import Vantagens from "@/components/shared/Vantagens"
 import Depoimentos from "@/components/shared/Depoimentos"
+import Price from "@/components/shared/Price"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <AssinaturaAnual />
         <Vantagens />
         <Depoimentos />
+        <Price />
       </main>
     </>
   )
