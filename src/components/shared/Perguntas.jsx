@@ -4,15 +4,24 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { BsQuestionCircleFill } from "react-icons/bs"
 
 const Perguntas = () => {
   return (
     <div className="mt-20 min-h-screen">
-      <div className="max-w-4xl flex-center flex-col bg-black mx-auto p-5 text-white font-poppins gap-5">
-        <h1 className="text-5xl font-lora underline text-center">
-          PERGUNTAS FREQUENTES
-        </h1>
-        <Accordion type="single" collapsible className="w-full mb-5">
+      <div className="max-w-4xl flex-center flex-col bg-black mx-auto p-5 text-white font-poppins gap-5 rounded-lg shadow-lg shadow-black border-2 border-white">
+        <div className="flex-center gap-3 mb-10">
+          <span>
+            <BsQuestionCircleFill size={50} />
+          </span>
+          <h1 className="text-3xl md:text-5xl font-lora underline text-center">
+            PERGUNTAS FREQUENTES
+          </h1>
+          <span>
+            <BsQuestionCircleFill size={50} />
+          </span>
+        </div>
+        <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>
               Por quanto tempo vou ter acesso aos cursos?
