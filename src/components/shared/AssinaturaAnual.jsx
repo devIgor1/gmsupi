@@ -14,7 +14,7 @@ const AssinaturaAnual = () => {
             <FaSignature size={50} />
           </span>
         </div>
-        <div className="max-w-[500px] border border-white p-5 font-semibold rounded-md shadow-lg shadow-zinc-700 bg-[#efebd8]">
+        <div className="max-w-[500px] p-5 font-semibold rounded-md bg-[#efebd8]">
           <p className="text-center font-merriweather text-xl md:text-2xl text-black">
             NOSSA ASSINATURA ANUAL OFERECE{" "}
             <span className="text-black rounded-lg p-1 mr-2">
