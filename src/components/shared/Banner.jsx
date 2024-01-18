@@ -19,7 +19,7 @@ const Banner = () => {
           </div>
         </div>
         <img
-          src="/public/assets/images/hero.png"
+          src="/assets/images/hero.png"
           alt="hero.png"
           className="w-full h-[250px] md:h-[578px]"
         />

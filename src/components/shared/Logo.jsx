@@ -1,5 +1,5 @@
-import pawn from "../../../public/assets/images/pawn.svg"
-import queen from "../../../public/assets/images/queen.svg"
+import pawn from "/assets/images/pawn.svg"
+import queen from "/assets/images/queen.svg"
 
 const Logo = () => {
   return (
