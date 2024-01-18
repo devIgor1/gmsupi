@@ -17,7 +17,7 @@ import Logo from "./Logo"
 const MobileNav = () => {
   return (
     <header className="w-full bg-zinc-950">
-      <nav className="wrapper flex-between font-lora text-white">
+      <nav className="wrapper flex-between font-dmSerif text-[#F2EFDF]">
         <div className="flex items-center">
           <img className="w-[35px]" src={pawn} alt="pawn.svg" />
           <h1 className="text-2xl font-bold ">Do Zero a Maestria</h1>
@@ -25,10 +25,10 @@ const MobileNav = () => {
         </div>
         <Sheet>
           <SheetTrigger>
-            <HiMenu size={30} />
+            <HiMenu size={30} color="#F2EFDF" />
           </SheetTrigger>
           <SheetContent>
-            <div className="bg-[#EED6B5] h-screen p-6 pt-16">
+            <div className="bg-[#0D0D0D] h-screen p-6 pt-16">
               <div>
                 <NavItems />
               </div>
