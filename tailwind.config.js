@@ -75,6 +75,8 @@ module.exports = {
         lora: "Lora, serif;",
         nunito: "Nunito, sans-serif;",
         poppins: "Poppins, sans-serif",
+        dmSerif: "DM Serif Display, serif",
+        merriweather: "Merriweather, serif",
       },
     },
   },
