@@ -1,6 +1,6 @@
-import { navLinks } from "@/constants"
 import Logo from "./Logo"
 import { Separator } from "../ui/separator"
+import { navLinks } from "@/constants"
 
 const NavItems = () => {
   return (

@@ -49,13 +49,6 @@ const Header = () => {
                   </MenubarItem>
                   <MenubarSeparator className="bg-[#0D0D0D]" />
                   <MenubarItem className="flex-center gap-3">
-                    <a href="/aulas-ao-vivo">Aulas ao Vivo</a>
-                    <span>
-                      <RiLiveFill />
-                    </span>
-                  </MenubarItem>
-                  <MenubarSeparator className="bg-[#0D0D0D]" />
-                  <MenubarItem className="flex-center gap-3">
                     <a href="/cursos-mensais">Cursos Mensais</a>
                     <span>
                       <IoBookSharp />

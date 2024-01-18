@@ -21,11 +21,6 @@ export const navLinks = [
     route: "/metodojulia",
   },
   {
-    label: "Aulas ao Vivo",
-    icon: RiLiveFill,
-    route: "/aulas-ao-vivo",
-  },
-  {
     label: "Cursos Mensais",
     icon: IoBookSharp,
     route: "/cursos-mensais",
