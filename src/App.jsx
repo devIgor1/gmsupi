@@ -3,6 +3,8 @@ import Home from "./pages/home"
 import MetodoSupi from "./pages/metodosupi"
 import MetodoJulia from "./pages/metodojulia"
 import CursosMensais from "./pages/cursosmensais"
+import SobreSupi from "./components/shared/SobreSupi"
+import SobreJulia from "./components/shared/SobreJulia"
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/cursos-mensais",
     element: <CursosMensais />,
+  },
+  {
+    path: "/sobre-supi",
+    element: <SobreSupi />,
+  },
+  {
+    path: "/sobre-julia",
+    element: <SobreJulia />,
   },
 ])
 

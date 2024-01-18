@@ -16,13 +16,13 @@ import Logo from "./Logo"
 
 const MobileNav = () => {
   return (
-    <header className="w-full bg-zinc-950">
+    <header className="w-full bg-[#0D0D0D] border-b-2 border-[#F2EFDF]">
       <nav className="wrapper flex-between font-dmSerif text-[#F2EFDF]">
-        <div className="flex items-center">
+        <a href="/" className="flex items-center">
           <img className="w-[35px]" src={pawn} alt="pawn.svg" />
           <h1 className="text-2xl font-bold ">Do Zero a Maestria</h1>
           <img className="w-[35px]" src={queen} alt="queen.svg" />
-        </div>
+        </a>
         <Sheet>
           <SheetTrigger>
             <HiMenu size={30} color="#F2EFDF" />

@@ -1,3 +1,4 @@
+import Footer from "@/components/shared/Footer"
 import Header from "@/components/shared/Header"
 import MobileNav from "@/components/shared/MobileNav"
 import { Separator } from "@/components/ui/separator"
@@ -7,7 +8,7 @@ import { FaFacebook } from "react-icons/fa"
 
 export default function MetodoSupi() {
   return (
-    <nav>
+    <div>
       <div className="hidden md:block border-b-2 border-[#F2EFDF]">
         <Header />
       </div>
@@ -33,17 +34,32 @@ export default function MetodoSupi() {
               </p>
               <div className="flex items-center justify-start mt-5">
                 <div className="flex-center gap-10">
-                  <button className="bg-black text-[#F2EFDF] font-dmSerif text-xl py-1 px-5 rounded-md hover:scale-105 duration-300">
+                  <a
+                    href="/sobre-supi"
+                    className="bg-black text-[#F2EFDF] font-dmSerif text-xl py-1 px-5 rounded-md hover:scale-105 duration-300"
+                  >
                     Sobre
-                  </button>
+                  </a>
                   <div className="flex-center gap-5">
-                    <a href="#" className="hover:scale-110 duration-300">
+                    <a
+                      href="https://www.youtube.com/@GMLuisPauloSupi"
+                      target="_blank"
+                      className="hover:scale-110 duration-300"
+                    >
                       <FaYoutube size={30} />
                     </a>
-                    <a href="#" className="hover:scale-110 duration-300">
+                    <a
+                      href="https://www.instagram.com/gmsupi/"
+                      target="_blank"
+                      className="hover:scale-110 duration-300"
+                    >
                       <FaInstagram size={30} />
                     </a>
-                    <a href="#" className="hover:scale-110 duration-300">
+                    <a
+                      href="https://www.facebook.com/luispaulo.supi/"
+                      target="_blank"
+                      className="hover:scale-110 duration-300"
+                    >
                       <FaFacebook size={30} />
                     </a>
                   </div>
@@ -63,7 +79,7 @@ export default function MetodoSupi() {
           <div className="bg-[#F2EFDF] grid grid-cols-1 md:grid-cols-3 p-5 gap-5 rounded-md">
             <div className="bg-[#0D0D0D] flex-center flex-col rounded-md max-w-[500px]">
               <h1 className="text-[#F2EFDF] text-center text-3xl font-dmSerif p-5 font-bold">
-                MÓDULO 1: INSTRUÇÕES GERAIS
+                MÓDULO 1
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
@@ -80,7 +96,7 @@ export default function MetodoSupi() {
             </div>
             <div className="bg-[#0D0D0D] flex-center flex-col rounded-md max-w-[500px]">
               <h1 className="text-[#F2EFDF] text-center text-3xl font-dmSerif p-5 font-bold">
-                MÓDULO 2: INICIANTE RATING 0 - 1900
+                MÓDULO 2
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
@@ -89,7 +105,7 @@ export default function MetodoSupi() {
                 className="relative"
               />
               <span className="relative bg-[#F2EFDF] text-[#0D0D0D] font-merriweather -top-36 p-5 text-2xl rounded-lg">
-                0 A 1000 DE RATING
+                RATING 0 - 1900
               </span>
               <button className="border border-[#F2EFDF] mb-5 text-[#F2EFDF] text-2xl p-3 font-merriweather rounded-md hover:scale-105 duration-300">
                 ACESSO AO CONTEÚDO
@@ -97,7 +113,7 @@ export default function MetodoSupi() {
             </div>
             <div className="bg-[#0D0D0D] flex-center flex-col rounded-md max-w-[500px]">
               <h1 className="text-[#F2EFDF] text-center text-3xl font-dmSerif p-5 font-bold">
-                MÓDULO 3: RATING 1900 - 2200
+                MÓDULO 3
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
@@ -114,7 +130,7 @@ export default function MetodoSupi() {
             </div>
             <div className="bg-[#0D0D0D] flex-center flex-col rounded-md max-w-[500px]">
               <h1 className="text-[#F2EFDF] text-center text-3xl font-dmSerif p-5">
-                MÓDULO 4: RATING 2200 - 2300
+                MÓDULO 4
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
@@ -131,7 +147,7 @@ export default function MetodoSupi() {
             </div>
             <div className="bg-[#0D0D0D] flex-center flex-col rounded-md max-w-[500px]">
               <h1 className="text-[#F2EFDF] text-center text-3xl font-dmSerif p-5">
-                MÓDULO 5: MESTRE INTERNACIONAL
+                MÓDULO 5
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
@@ -148,7 +164,7 @@ export default function MetodoSupi() {
             </div>
             <div className="bg-[#0D0D0D] flex-center flex-col rounded-md max-w-[500px]">
               <h1 className="text-[#F2EFDF] text-center text-3xl font-dmSerif p-5">
-                MÓDULO 6: GRANDE MESTRE
+                MÓDULO 6
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
@@ -165,7 +181,7 @@ export default function MetodoSupi() {
             </div>
             <div className="bg-[#0D0D0D] flex-center flex-col rounded-md max-w-[500px]">
               <h1 className="text-[#F2EFDF] text-center text-3xl font-dmSerif p-5">
-                MÓDULO 7 BÔNUS: 2500 A NÚMERO 1 BR
+                MÓDULO 7 BÔNUS
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
@@ -183,6 +199,7 @@ export default function MetodoSupi() {
           </div>
         </section>
       </main>
-    </nav>
+      <Footer />
+    </div>
   )
 }
