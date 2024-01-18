@@ -39,7 +39,7 @@ const Vantagens = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10 max-w-[1350px]">
           <div className="flex-center flex-col rounded-lg p-5 border-2 border-black bg-[#efebd8]">
             <img
-              src="/src/assets/images/metodosupi.jpg"
+              src="/public/assets/images/metodosupi.jpg"
               alt="metodosupi.jpg"
               className="w-[350px] rounded-lg "
             />
@@ -63,7 +63,7 @@ const Vantagens = () => {
           </div>
           <div className="flex-center flex-col rounded-lg p-5 border-2 border-black bg-[#efebd8]">
             <img
-              src="/src/assets/images/metodojulia.jpg"
+              src="/public/assets/images/metodojulia.jpg"
               alt="metodosupi.jpg"
               className="w-[350px] rounded-lg "
             />
@@ -106,7 +106,7 @@ const Vantagens = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-10 bg-[#efebd8] border-2 border-black p-5 rounded-lg">
                 <div className="max-w-[300px]">
                   <img
-                    src="/src/assets/images/profsupi.jpg"
+                    src="/public/assets/images/profsupi.jpg"
                     alt="profsupi.jpg"
                     className="rounded-md w-[300px]"
                   />
@@ -127,7 +127,7 @@ const Vantagens = () => {
                 </div>
                 <div className="max-w-[300px]">
                   <img
-                    src="/src/assets/images/profjulia.jpg"
+                    src="/public/assets/images/profjulia.jpg"
                     alt="profsupi.jpg"
                     className="rounded-md w-[300px]"
                   />
@@ -148,7 +148,7 @@ const Vantagens = () => {
                 </div>
                 <div className="max-w-[300px]">
                   <img
-                    src="/src/assets/images/proffelipe.jpg"
+                    src="/public/assets/images/proffelipe.jpg"
                     alt="profsupi.jpg"
                     className="rounded-md w-[300px]"
                   />
@@ -169,7 +169,7 @@ const Vantagens = () => {
                 </div>
                 <div className="max-w-[300px]">
                   <img
-                    src="/src/assets/images/profalvaro.jpg"
+                    src="/public/assets/images/profalvaro.jpg"
                     alt="profsupi.jpg"
                     className="rounded-md w-[300px] h-[339px]"
                   />
@@ -190,7 +190,7 @@ const Vantagens = () => {
                 </div>
                 <div className="max-w-[300px]">
                   <img
-                    src="/src/assets/images/proffier.jpg"
+                    src="/public/assets/images/proffier.jpg"
                     alt="profsupi.jpg"
                     className="rounded-md w-[300px]"
                   />
@@ -211,7 +211,7 @@ const Vantagens = () => {
                 </div>
                 <div className="max-w-[300px]">
                   <img
-                    src="/src/assets/images/profvictor.jpg"
+                    src="/public/assets/images/profvictor.jpg"
                     alt="profsupi.jpg"
                     className="rounded-md w-[300px]"
                   />

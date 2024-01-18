@@ -73,12 +73,12 @@ const AssinaturaAnual = () => {
       </div>
       <div className="flex-1 flex-center flex-col gap-2">
         <img
-          src="/src/assets/images/supi.jpg"
+          src="/public/assets/images/supi.jpg"
           alt="supi.jpg"
           className="rounded-lg shadow-md shadow-black w-[400px] md:w-[600px]"
         />
         <img
-          src="/src/assets/images/julia.jpg"
+          src="/public/assets/images/julia.jpg"
           alt="julia.jpg"
           className="rounded-lg shadow-md shadow-black w-[400px] md:w-[600px]"
         />

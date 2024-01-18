@@ -7,8 +7,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 
-import pawn from "../../assets/images/pawn.svg"
-import queen from "../../assets/images/queen.svg"
+import pawn from "/assets/images/pawn.svg"
+import queen from "/assets/images/queen.svg"
 
 import { HiMenu } from "react-icons/hi"
 import NavItems from "./NavItems"

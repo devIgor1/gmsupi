@@ -22,7 +22,7 @@ export default function MetodoSupi() {
                 FEVEREIRO
               </h1>
               <img
-                src="/src/assets/images/aulas-mensais/cursomensal.jpg"
+                src="/public/assets/images/aulas-mensais/cursomensal.jpg"
                 alt="aula"
                 className="w-[300px] rounded-sm"
               />
@@ -40,7 +40,7 @@ export default function MetodoSupi() {
                 MARÇO
               </h1>
               <img
-                src="/src/assets/images/aulas-mensais/cursomensal2.jpg"
+                src="/public/assets/images/aulas-mensais/cursomensal2.jpg"
                 alt="aula"
                 className="w-[300px] rounded-sm"
               />
@@ -58,7 +58,7 @@ export default function MetodoSupi() {
                 ABRIL
               </h1>
               <img
-                src="/src/assets/images/aulas-mensais/cursomensal3.jpg"
+                src="/public/assets/images/aulas-mensais/cursomensal3.jpg"
                 alt="aula"
                 className="w-[300px] rounded-sm"
               />
@@ -76,7 +76,7 @@ export default function MetodoSupi() {
                 MAIO
               </h1>
               <img
-                src="/src/assets/images/aulas-mensais/cursomensal4.jpg"
+                src="/public/assets/images/aulas-mensais/cursomensal4.jpg"
                 alt="aula"
                 className="w-[300px] rounded-sm"
               />
@@ -94,7 +94,7 @@ export default function MetodoSupi() {
                 JUNHO
               </h1>
               <img
-                src="/src/assets/images/aulas-mensais/cursomensal5.jpg"
+                src="/public/assets/images/aulas-mensais/cursomensal5.jpg"
                 alt="aula"
                 className="w-[300px] rounded-sm"
               />

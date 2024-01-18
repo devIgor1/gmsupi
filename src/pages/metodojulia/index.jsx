@@ -66,8 +66,8 @@ export default function MetodoJulia() {
             </div>
             <div className="">
               <img
-                src="/src/assets/images/metodos/juliametodo.jpg"
-                alt="supi"
+                src="/public/assets/images/metodos/juliametodo.jpg"
+                alt="julia"
                 className=" md:h-[384px] rounded-md md:rounded-tl-none md:rounded-bl-none md:rounded-tr-md md:rounded-br-md"
               />
             </div>
@@ -80,11 +80,7 @@ export default function MetodoJulia() {
                 MÓDULO 1
               </h1>
               <Separator className="bg-[#F2EFDF]" />
-              <img
-                src="/src/assets/images/chess.png"
-                alt="chess"
-                className="relative"
-              />
+              <img src="/public/assets/images/chess.png" className="relative" />
               <span className="relative bg-[#F2EFDF] text-[#0D0D0D] font-merriweather -top-36 p-5 text-2xl rounded-lg">
                 INSTRUÇÕES GERAIS
               </span>
@@ -98,7 +94,7 @@ export default function MetodoJulia() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -115,7 +111,7 @@ export default function MetodoJulia() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -132,7 +128,7 @@ export default function MetodoJulia() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -149,7 +145,7 @@ export default function MetodoJulia() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -166,7 +162,7 @@ export default function MetodoJulia() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />

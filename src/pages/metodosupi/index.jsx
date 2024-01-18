@@ -68,7 +68,7 @@ export default function MetodoSupi() {
             </div>
             <div className="">
               <img
-                src="/src/assets/images/metodos/supimetodo.jpg"
+                src="/public/assets/images/metodos/supimetodo.jpg"
                 alt="supi"
                 className=" md:h-[384px] rounded-md md:rounded-tl-none md:rounded-bl-none md:rounded-tr-md md:rounded-br-md"
               />
@@ -83,7 +83,7 @@ export default function MetodoSupi() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -100,7 +100,7 @@ export default function MetodoSupi() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -117,7 +117,7 @@ export default function MetodoSupi() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -134,7 +134,7 @@ export default function MetodoSupi() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -151,7 +151,7 @@ export default function MetodoSupi() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -168,7 +168,7 @@ export default function MetodoSupi() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />
@@ -185,7 +185,7 @@ export default function MetodoSupi() {
               </h1>
               <Separator className="bg-[#F2EFDF]" />
               <img
-                src="/src/assets/images/chess.png"
+                src="/public/assets/images/chess.png"
                 alt="chess"
                 className="relative"
               />

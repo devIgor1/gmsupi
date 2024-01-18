@@ -24,7 +24,7 @@ const SobreJulia = () => {
             <div className="flex-center flex-col gap-10 w-full">
               <div className="flex-col md:flex-row flex-around gap-10">
                 <img
-                  src="/src/assets/images/sobre/juliasobre.jpg"
+                  src="/public/assets/images/sobre/juliasobre.jpg"
                   alt="supi-sobre"
                   className="w-[500px] rounded-md"
                 />
@@ -68,32 +68,32 @@ const SobreJulia = () => {
               </div>
               <div className="flex-col md:flex-row flex-center">
                 <img
-                  src="/src/assets/images/noticias-julia/noticiajulia5.jpg"
+                  src="/public/assets/images/noticias-julia/noticiajulia5.jpg"
                   alt=""
                   className="w-[300px] md:w-full h-[200px] rounded-tl-md md:rounded-bl-md rounded-tr-md md:rounded-tr-none"
                 />
                 <img
-                  src="/src/assets/images/noticias-julia/noticiajulia6.jpg"
+                  src="/public/assets/images/noticias-julia/noticiajulia6.jpg"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-julia/noticiajulia3.jpg"
+                  src="/public/assets/images/noticias-julia/noticiajulia3.jpg"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-julia/noticiajulia4.png"
+                  src="/public/assets/images/noticias-julia/noticiajulia4.png"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-julia/noticiajulia.jpg"
+                  src="/public/assets/images/noticias-julia/noticiajulia.jpg"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-julia/noticiajulia2.png"
+                  src="/public/assets/images/noticias-julia/noticiajulia2.png"
                   alt=""
                   className="w-[300px] md:w-full h-[200px] md:rounded-tr-md rounded-br-md rounded-bl-md md:rounded-bl-none"
                 />

@@ -24,7 +24,7 @@ const SobreSupi = () => {
             <div className="flex-center flex-col gap-10 w-full">
               <div className="flex-col md:flex-row flex-around gap-10">
                 <img
-                  src="/src/assets/images/sobre/supisobre.jpg"
+                  src="/public/assets/images/sobre/supisobre.jpg"
                   alt="supi-sobre"
                   className="w-[500px] rounded-md"
                 />
@@ -68,32 +68,32 @@ const SobreSupi = () => {
               </div>
               <div className="flex-col md:flex-row flex-center">
                 <img
-                  src="/src/assets/images/noticias-supi/noticiasupi.png"
+                  src="/public/assets/images/noticias-supi/noticiasupi.png"
                   alt=""
                   className="w-[300px] md:w-full h-[200px] rounded-tl-md md:rounded-bl-md rounded-tr-md md:rounded-tr-none"
                 />
                 <img
-                  src="/src/assets/images/noticias-supi/noticiasupi2.jpg"
+                  src="/public/assets/images/noticias-supi/noticiasupi2.jpg"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-supi/noticiasupi3.jpg"
+                  src="/public/assets/images/noticias-supi/noticiasupi3.jpg"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-supi/noticiasupi4.jpg"
+                  src="/public/assets/images/noticias-supi/noticiasupi4.jpg"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-supi/noticiasupi5.png"
+                  src="/public/assets/images/noticias-supi/noticiasupi5.png"
                   alt=""
                   className="w-[300px] md:w-full h-[200px]"
                 />
                 <img
-                  src="/src/assets/images/noticias-supi/noticiasupi6.png"
+                  src="/public/assets/images/noticias-supi/noticiasupi6.png"
                   alt=""
                   className="w-[300px] md:w-full h-[200px] md:rounded-tr-md rounded-br-md rounded-bl-md md:rounded-bl-none"
                 />
