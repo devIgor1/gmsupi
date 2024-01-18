@@ -1,12 +1,12 @@
 const Depoimentos = () => {
   return (
-    <div className="mt-20 min-h-screen">
-      <div className="flex-center">
-        <h1 className="text-5xl font-lora underline text-center">
-          Alguns Depoimentos
+    <div className="min-h-screen bg-[#efebd8] pb-10">
+      <div className="flex-center p-5">
+        <h1 className="text-5xl font-dmSerif underline text-center text-[#0D0D0D]">
+          Depoimentos
         </h1>
       </div>
-      <div className="flex-center mt-10 bg-black wrapper rounded-lg">
+      <div className="flex-center mt-5 bg-[#0D0D0D] wrapper rounded-md">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 px-10 py-5">
           <div>
             <img
