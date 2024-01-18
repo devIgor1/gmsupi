@@ -31,28 +31,28 @@ const Header = () => {
                     <MdOutlineArrowDropDown size={30} color="#F2EFDF" />
                   </span>
                 </MenubarTrigger>
-                <MenubarContent className="text-[#7B4610] font-bold">
+                <MenubarContent className="text-[#0D0D0D] font-bold">
                   <MenubarItem className="flex-center gap-3">
                     <a href="/metodosupi">Método GM Supi</a>
                     <span>
                       <FaChessKing />
                     </span>
                   </MenubarItem>
-                  <MenubarSeparator />
+                  <MenubarSeparator className="bg-[#0D0D0D]" />
                   <MenubarItem className="flex-center gap-3">
                     <a href="/metodojulia">Método 2.0 MF Julia</a>
                     <span>
                       <GiChessQueen />
                     </span>
                   </MenubarItem>
-                  <MenubarSeparator />
+                  <MenubarSeparator className="bg-[#0D0D0D]" />
                   <MenubarItem className="flex-center gap-3">
                     <a href="/aulas-ao-vivo">Aulas ao Vivo</a>
                     <span>
                       <RiLiveFill />
                     </span>
                   </MenubarItem>
-                  <MenubarSeparator />
+                  <MenubarSeparator className="bg-[#0D0D0D]" />
                   <MenubarItem className="flex-center gap-3">
                     <a href="/cursos-mensais">Cursos Mensais</a>
                     <span>
