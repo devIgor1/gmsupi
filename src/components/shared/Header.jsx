@@ -17,8 +17,8 @@ import Logo from "./Logo"
 
 const Header = () => {
   return (
-    <header className="w-full bg-gradient-to-br from-yellow-900 to-yellow-700">
-      <nav className="wrapper flex-between font-lora text-white">
+    <header className="w-full bg-[#0D0D0D]">
+      <nav className="wrapper flex-between font-lora text-[#F2EFDF]">
         <Logo />
         <div className="text-lg font-bold flex-between gap-6">
           <a href="/">Inicio</a>
@@ -26,9 +26,9 @@ const Header = () => {
             <Menubar>
               <MenubarMenu>
                 <MenubarTrigger>
-                  Cursos{" "}
+                  Cursos
                   <span>
-                    <MdOutlineArrowDropDown size={30} color="#fff" />
+                    <MdOutlineArrowDropDown size={30} color="#F2EFDF" />
                   </span>
                 </MenubarTrigger>
                 <MenubarContent className="text-[#7B4610] font-bold">

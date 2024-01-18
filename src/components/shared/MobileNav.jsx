@@ -16,7 +16,7 @@ import Logo from "./Logo"
 
 const MobileNav = () => {
   return (
-    <header className="w-full bg-gradient-to-br from-yellow-900 to-yellow-700">
+    <header className="w-full bg-zinc-950">
       <nav className="wrapper flex-between font-lora text-white">
         <div className="flex items-center">
           <img className="w-[35px]" src={pawn} alt="pawn.svg" />
