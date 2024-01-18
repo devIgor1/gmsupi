@@ -18,14 +18,16 @@ import Logo from "./Logo"
 const Header = () => {
   return (
     <header className="w-full bg-[#0D0D0D]">
-      <nav className="wrapper flex-between font-lora text-[#F2EFDF]">
+      <nav className="wrapper flex-between text-[#F2EFDF]">
         <Logo />
-        <div className="text-lg font-bold flex-between gap-6">
-          <a href="/">Inicio</a>
+        <div className="text-lg font-dmSerif flex-between gap-6">
+          <a href="/" className="hover:underline">
+            Inicio
+          </a>
           <div className="flex-between">
             <Menubar>
               <MenubarMenu>
-                <MenubarTrigger>
+                <MenubarTrigger className="font-dmSerif">
                   Cursos
                   <span>
                     <MdOutlineArrowDropDown size={30} color="#F2EFDF" />
