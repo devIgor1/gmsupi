@@ -20,7 +20,7 @@ const MobileNav = () => {
       <nav className="wrapper flex-between font-dmSerif text-[#F2EFDF]">
         <a href="/" className="flex-center">
           <img className="w-[35px]" src={pawn} alt="pawn.svg" />
-          <h1 className="text-2xl font-bold ">Do Zero a Maestria</h1>
+          <h1 className="text-xl md:text-2xl font-bold ">Do Zero a Maestria</h1>
           <img className="w-[35px]" src={queen} alt="queen.svg" />
         </a>
         <Sheet>
