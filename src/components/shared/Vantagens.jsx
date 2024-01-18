@@ -95,7 +95,7 @@ const Vantagens = () => {
           </span>
           <div>
             <div className="flex-center flex-col gap-5">
-              <h1 className="text-center text-3xl md:text-5xl font-dmSerif text-[#F2EFDF] underline">
+              <h1 className="text-center text-5xl font-dmSerif text-[#F2EFDF] underline">
                 AULAS COM NOSSA EQUIPE DE PROFESSORES <br />
               </h1>
               <span className=" text-[#10611D] text-center text-5xl font-dmSerif bg-[#F2EFDF] p-2 rounded-lg">
